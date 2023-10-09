@@ -1,0 +1,51 @@
+.serpcounter{
+    position: absolute;
+    left: -9%;
+    top: 0;
+    color: #dadce0;
+    font-weight: 700;
+    font-family: 'Google Sans';
+    font-size: 20px;
+    border: 1px solid #303134;
+    background: #202124;
+    border-radius: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: .1rem;
+    line-height: normal;
+ }
+ .serpcounter span{
+     /* color: #ffc107; */
+ }
+ 
+ .ok,.g,.XN9cAe,.MjjYud,.sATSHe,.TzHB6b,.cLjAic,.K7khPe {
+     position: relative;
+ }
+ 
+ 
+ /* Featured snippet box */
+ .c2xzTb {
+     overflow: visible !important;
+ }
+ 
+ /* Fix indented results not showing numbers */
+ .jtfYYd,
+ .kWxLod {
+     overflow: inherit !important;
+     contain: inherit!important;
+ }
+ 
+ @keyframes fadeIn {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ 
