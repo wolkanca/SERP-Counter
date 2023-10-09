@@ -18,9 +18,10 @@ function ok() {
 /*
 const search = document.querySelectorAll('#search')
 const botstuff = document.querySelectorAll('#botstuff')
+const results = document.getElementsByClassName('yuRUbf');
 */
 
-const results = document.getElementsByClassName('yuRUbf');
+const results = document.querySelectorAll('.MjjYud .yuRUbf');
 function mstSerpMain() {
     let countDisplay = 1;
     for (let countActual = 0; countActual < results.length; countActual++, countDisplay++) {
