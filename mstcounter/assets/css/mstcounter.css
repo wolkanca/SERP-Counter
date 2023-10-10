@@ -14,16 +14,16 @@
     position: absolute;
     top: 0;
     left: 0;
-	float: left;
+    float: left;
     color: var(--serpclr, inherit);
-	background: var(--serpbck, white);
+    background: var(--serpbck, white);
     font-weight: 700;
     font-family: 'Google Sans';
     font-size: 100%;
-    margin-left: -2rem;
+    margin-left: -2.3rem
     padding: .5rem;
     border: 1px solid;
-	border-color: var(--serpbrdr,#dadce0);
+    border-color: var(--serpbrdr,#dadce0);
     border-radius: 1rem;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: center;
     animation: linear fadeIn .1s;
-	user-select: none;
+    user-select: none;
 }
 
 .ok,.MjjYud {
