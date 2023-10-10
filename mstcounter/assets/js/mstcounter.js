@@ -1,7 +1,7 @@
 // MST SERP Counter - SEO Free SERP Checker Tool 
 // https://chrome.google.com/webstore/detail/mst-serp-counter-seo-free/dgpekiojagcbjhgfpmmngnkchekcfifn
 // mstcounter.js
-// 👍 https://wolkanca.com/chrome-serp-counter-uzantisi/
+// 👍 wolkanca.com
 
 function ok() {
 	const tags = [...document.querySelectorAll('.ok .serpcounter')];
@@ -19,6 +19,7 @@ function ok() {
 const search = document.querySelectorAll('#search')
 const botstuff = document.querySelectorAll('#botstuff')
 const yuRUbf = document.getElementsByClassName('yuRUbf');
+const results = [...elements].filter(element => !element.closest(".ULSxyf")); // remove featured snippet box results
 */
 
 const results = document.getElementsByClassName('MjjYud');
