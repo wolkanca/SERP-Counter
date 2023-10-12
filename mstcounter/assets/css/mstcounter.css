@@ -1,16 +1,16 @@
 :root {
-	color-scheme: light dark;
+    color-scheme: light dark;
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		--serpclr: #dadce0;
-		--serpbck: #202124;
-		--serpbrdr: #303134;
-	}
+    :root {
+        --serpclr: #dadce0;
+        --serpbck: #202124;
+        --serpbrdr: #303134;
+    }
 }
 
-.serpcounter {
+.serpcounter, #tads>div:before, #tadsb>div:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -30,31 +30,29 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    animation: linear fadeIn .1s;
     user-select: none;
 }
 
+#tads>div:before, #tadsb>div:before {
+    content: "Ad";
+    font-size: 90%;
+    margin-left: -2.5rem;
+}
+
+#tads>div, #tadsb>div {position: relative}
+
 .ok,.MjjYud {
-	position: relative;
+    position: relative;
 }
 
 /* Featured snippet box */
 .c2xzTb {
-	overflow: visible !important;
+    overflow: visible !important;
 }
 
 /* Fix indented results not showing numbers */
 .jtfYYd,
 .kWxLod {
-	overflow: inherit !important;
-	contain: inherit!important;
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
+    overflow: inherit !important;
+    contain: inherit!important;
 }
